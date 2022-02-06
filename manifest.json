@@ -1,0 +1,10 @@
+{
+  "name": "Unblock",
+  "description": "Unblocks Quora.com questions when you're not logged in",
+  "version": "0.1.1",
+  "manifest_version": 3,
+  "content_scripts": [{
+    "matches": ["*://*.quora.com/*-*"],
+    "js": ["content-script.js"]
+  }]
+}
